@@ -6,8 +6,6 @@ const databaseConnect = require("./database");
 const authRouter = require("./components/routers/authenticationRoutes");
 const quizRouter = require("./components/routers/quizRoutes");
 const videoRouter = require("./components/routers/videoRoutes");
-
-
 const app = express();
 app.use(express.json());
 app.use(cors());
