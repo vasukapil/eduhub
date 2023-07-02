@@ -2,7 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bcrypt = require('bcrypt');
-const multer = require('multer');
 const databaseConnect = require("./database"); 
 const authRouter = require("./components/routers/authenticationRoutes");
 const quizRouter = require("./components/routers/quizRoutes");
